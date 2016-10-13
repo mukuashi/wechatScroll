@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.btn-music {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 999;
+    border: 0.125rem solid #fff;
+    border-radius: 50%;
+    padding: 0;
+    animation: btnMusicAni 3s infinite linear;
+    i {
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+        line-height: 2rem;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        top: -0.125rem;
+        left: -0.125rem;
+    }
+    &.paused {
+        opacity: 0.4;
+        animation: none;
+    }
+}
+
+@keyframes btnMusicAni {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

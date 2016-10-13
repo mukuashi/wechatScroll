@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+// helpers
+@import "helpers/global-variables";
+@import "helpers/mixins";
+@import "helpers/functions";
+
+// base
+@import "base/reset";
+@import "base/base";
+
+// components
+@import "components/loading-overlay";
+@import "components/btn-music";
+@import "components/up-arrow";
+@import "components/swiper-container";
+@import "components/swiper-slide";
+@import "components/icon-font";
+
+// sections
+@import "slides/slide-1";
+@import "slides/slide-2";
+@import "slides/slide-3";
+@import "slides/slide-4";
+
